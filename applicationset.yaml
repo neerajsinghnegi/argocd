@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/your-user/demo-nginx.git
+        repoURL: https://github.com/neerajsinghnegi/argocd.git
         revision: HEAD
         directories:
           - path: app*
@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/your-user/demo-nginx.git
+        repoURL: https://github.com/neerajsinghnegi/argocd.git
         targetRevision: HEAD
         path: '{{path}}'
       destination:
